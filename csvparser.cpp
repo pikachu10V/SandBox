@@ -114,8 +114,8 @@ std::vector<double> CSVParser::get_colvector_asdouble(std::string str_col, int n
 int debug_csvparser()
 {
 	
-	std::string filename = "csv\\JPYOIS_220530.csv";
-	std::string filename_save = "csv\\JPYOIS_220530_s.csv";
+	std::string filename = "csv\\aaa.csv";
+	std::string filename_save = "csv\\aaa_s.csv";
 
 	CSVParser parser(filename);
 	parser.read_csv(0);
